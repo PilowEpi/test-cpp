@@ -46,3 +46,21 @@ int => 2147483647
 std::string => ""
 uint8_t => 255
 
+# STEP 5
+## FSM is the way
+
+Créer une FSM de trois noeuds différents
+
+- A : attend 3 secondes
+- B : print "Hello World\n"
+- C : quitte le programe.
+
+Chaque noeud est lié de la manière suivante :
+
+A => B (après avoir fini les 3 secondes)
+B => C ( une fois sur quatre (random))
+B => A ( trois foid sur quatre (random))
+
+Le but de cette exercice est de comprendre le système de Finite State Machine ou Machine d'état. 
+
+Conseil : un code propre est plus apprécié :)
